@@ -1,4 +1,4 @@
-# [Flask](https://appseed.us/admin-dashboards/flask) Soft UI
+# [Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system) Flask
 
 > Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple admin dashboards coded in [Flask](https://palletsprojects.com/p/flask/) - Features:
 
@@ -12,7 +12,7 @@
 
 > Links
 
-- [LIVE Demo](https://flask-soft-ui-free.appseed-srv1.com/) - starter in action
+- [Soft UI Design System Flask - Demo](https://flask-soft-ui-free.appseed-srv1.com/) - starter in action
 - More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) provided by AppSeed
 
 <br />
@@ -222,7 +222,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
 
-## [Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system)
+## Soft UI Design System - UI Kit
 
 Most complex and innovative Design System Made by Creative Tim. Soft UI Design System is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes.
 
@@ -239,4 +239,4 @@ You will save a lot of time going from prototyping to full-functional code, beca
 <br />
 
 ---
-[Flask](https://appseed.us/admin-dashboards/flask) Soft UI - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system) Flask - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
