@@ -28,7 +28,7 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 <br />
 <br />
 
-![Flask Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-soft-ui-free/master/media/flask-soft-ui-free-screen-contact.png)
+![Flask Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-soft-ui-free/master/media/flask-soft-ui-free-screen.png)
 
 <br />
 
