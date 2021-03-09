@@ -1,4 +1,4 @@
-# [Flask Boilerplate](https://appseed.us/boilerplate-code/flask-boilerplate)
+# [Flask](https://appseed.us/admin-dashboards/flask) Soft UI
 
 > Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple admin dashboards coded in [Flask](https://palletsprojects.com/p/flask/) - Features:
 
@@ -12,9 +12,8 @@
 
 > Links
 
-- [Boierplate Code Flask](https://appseed.us/boilerplate-code/flask-boilerplate) - Product page
-- [Boierplate Code Flask - Demo](https://boilerplate-code-flask.appseed.us/) - LIVE Demo
-- [Boierplate Code Flask - Docs](https://docs.appseed.us/boilerplate-code/flask/) - Documentation
+- [LIVE Demo](https://flask-soft-ui-free.appseed-srv1.com/) - starter in action
+- More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) provided by AppSeed
 
 <br />
 
@@ -29,7 +28,7 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 <br />
 <br />
 
-![Boierplate Code Flask - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/boilerplate-code-flask/master/media/boilerplate-code-flask-screen.png)
+![Flask Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-soft-ui-free/master/media/flask-soft-ui-free-screen-contact.png)
 
 <br />
 
@@ -37,8 +36,8 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/boilerplate-code-flask.git
-$ cd boilerplate-code-flask
+$ git clone https://github.com/app-generator/flask-soft-ui-free.git
+$ cd flask-soft-ui-free
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -132,8 +131,8 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/boilerplate-code-flask.git
-$ cd boilerplate-code-flask
+$ git clone https://github.com/app-generator/flask-soft-ui-free.git
+$ cd flask-soft-ui-free
 ```
 
 > Start the app in Docker
@@ -158,8 +157,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/boilerplate-code-flask.git
-$ cd boilerplate-code-flask
+$ git clone https://github.com/app-generator/flask-soft-ui-free.git
+$ cd flask-soft-ui-free
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
@@ -223,6 +222,14 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
 
+## [Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system)
+
+Most complex and innovative Design System Made by Creative Tim. Soft UI Design System is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes.
+
+You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Free Bootstrap 5 UK Kit is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+
+<br />
+
 ## Credits & Links
 
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The official website
@@ -232,4 +239,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask Boilerplate](https://appseed.us/boilerplate-code/flask-boilerplate) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Flask](https://appseed.us/admin-dashboards/flask) Soft UI - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).

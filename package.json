@@ -1,15 +1,15 @@
 {
-    "name": "boilerplate-code-flask",
+    "name": "flask-soft-ui-free",
     "mastertemplate": "boilerplate-code-flask",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "description": "Template project - Flask Boilerplate Code",
     "scripts": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/boilerplate-code-flask"
+        "url": "https://github.com/app-generator/flask-soft-ui-free"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/boilerplate-code-flask/issues",
+        "url": "https://github.com/app-generator/flask-soft-ui-free/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
