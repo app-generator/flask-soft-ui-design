@@ -2,7 +2,7 @@
 
 > Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple admin dashboards coded in [Flask](https://palletsprojects.com/p/flask/) - Features:
 
-- UI Kit: **Quick** (Free Version) by **Webpixels**
+- UI Kit: **Soft UI Design System** (Free Version) by **Creative-Tim**
 - SQLite database, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
 - Deployment scripts: Docker, Gunicorn / Nginx, Heroku
