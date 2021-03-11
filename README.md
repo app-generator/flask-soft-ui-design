@@ -12,8 +12,8 @@
 
 > Links
 
-- [Soft UI Design System Flask - Demo](https://flask-soft-ui-free.appseed-srv1.com/) - starter in action
-- More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) provided by AppSeed
+- [Soft UI Design System Flask](https://flask-soft-ui-free.appseed-srv1.com/) - product page
+- [Soft UI Design System Flask - Demo](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Deployment
 
 <br />
 
@@ -21,9 +21,9 @@
 
 PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
 
-| [Flask Datta PRO](https://appseed.us/admin-dashboards/flask-dashboard-dattaable-pro) | [Flask Material PRO](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [Flask Volt PRO](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro) |
+| [Flask Soft UI PRO](https://appseed.us/product/flask-soft-ui-pro) | [Flask Material PRO](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [Flask Volt PRO](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro) |
 | --- | --- | --- |
-| [![Flask Datta PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-dattaable-pro/master/media/flask-dashboard-dattaable-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-dattaable-pro) | [![Flask Material PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-material-pro/master/media/flask-dashboard-material-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [![Flask Volt PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-volt-pro/master/media/flask-dashboard-volt-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro)
+| [![Flask Soft UI PRO](https://raw.githubusercontent.com/app-generator/soft-ui-design-system/main/media/soft-ui-design-system-screen.png)](https://appseed.us/product/flask-soft-ui-pro) | [![Flask Material PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-material-pro/master/media/flask-dashboard-material-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [![Flask Volt PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-volt-pro/master/media/flask-dashboard-volt-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro)
 
 <br />
 <br />
