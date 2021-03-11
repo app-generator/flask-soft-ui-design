@@ -13,7 +13,7 @@
 > Links
 
 - [Soft UI Design System Flask](https://appseed.us/product/flask-soft-ui-design-system) - product page
-- [Soft UI Design System Flask - Demo](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Deployment
+- [Soft UI Design System Django](https://appseed.us/product/django-soft-ui-design-system) - product page
 
 <br />
 
@@ -222,7 +222,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
 
-## Soft UI Design System - UI Kit
+## [Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system) - UI Kit
 
 Most complex and innovative Design System Made by Creative Tim. Soft UI Design System is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes.
 
