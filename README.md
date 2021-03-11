@@ -12,7 +12,7 @@
 
 > Links
 
-- [Soft UI Design System Flask](https://flask-soft-ui-free.appseed-srv1.com/) - product page
+- [Soft UI Design System Flask](https://appseed.us/product/flask-soft-ui-design-system) - product page
 - [Soft UI Design System Flask - Demo](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Deployment
 
 <br />
