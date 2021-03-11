@@ -13,7 +13,7 @@
 > Links
 
 - [Soft UI Design System Flask](https://appseed.us/product/flask-soft-ui-design-system) - product page
-- [Soft UI Design System Django](https://appseed.us/product/django-soft-ui-design-system) - product page
+- [Soft UI Design System Flask - Demo](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Deployment
 
 <br />
 
