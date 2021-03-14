@@ -1,6 +1,6 @@
 # [Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system) Flask
 
-**[Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system)** is a Premium Bootstrap 5 UI Kit designed by [Creative-Tim](https://bit.ly/3fKQZaL) designed for those who like bold elements and beautiful websites. **Soft UI Design System** Flask is a simple Flask starter provided by AppSeed with a modular codebase, database, authentication and deployment scripts - Features:
+**[Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system)** is a Premium Bootstrap 5 UI Kit designed by [Creative-Tim](https://bit.ly/3fKQZaL) designed for those who like bold elements and beautiful websites. **Soft UI Design System Flask**  is a simple Flask starter provided by AppSeed with a modular codebase, database, authentication and deployment scripts - Features:
 
 <br />
 
