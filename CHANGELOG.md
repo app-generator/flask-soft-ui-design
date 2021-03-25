@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.0.1] 2020-03-09
+## [1.0.1] 2020-03-25
 ### Bump Codebase
 
 - [Flask Codebase(https://github.com/app-generator/boilerplate-code-flask) v1.0.4
