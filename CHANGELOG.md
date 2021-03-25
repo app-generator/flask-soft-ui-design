@@ -1,9 +1,9 @@
 # Change Log
 
 ## [1.0.1] 2020-03-25
-### Bump Codebase
+### Improvements
 
-- [Flask Codebase(https://github.com/app-generator/boilerplate-code-flask) v1.0.4
+- Bump [Flask Codebase(https://github.com/app-generator/boilerplate-code-flask) v1.0.4
 - Freeze used versions in `requirements.txt`
     - flask_sqlalchemy = 2.4.4
     - sqlalchemy = 1.3.23
