@@ -1,7 +1,7 @@
 {
     "name": "flask-soft-ui-free",
     "mastertemplate": "boilerplate-code-flask",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Template project - Flask Boilerplate Code",
     "scripts": {},
     "repository": {
