@@ -16,8 +16,9 @@
 
 > Links
 
-- [Soft UI Design Flask](https://appseed.us/product/flask-soft-ui-design-system) - Product page
-- [Soft UI Design Flask ](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Demo
+- 👉 [Soft UI Design Flask](https://appseed.us/product/flask-soft-ui-design-system) - Product page
+- 👉 [Soft UI Design Flask ](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Demo
+- 👉 More [Flask Apps](https://appseed.us/apps/flask-apps) - provided by AppSeed
 
 <br />
 
