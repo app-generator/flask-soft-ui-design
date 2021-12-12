@@ -4,12 +4,12 @@
 
 <br />
 
-- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- `Up-to-date dependencies: **Flask 2.0.1**
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Soft UI Design System** (Free Version) by **Creative-Tim**
-- SQLite database, Flask-SQLAlchemy ORM
+- `DB Tools`: SQLite database, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
-- Deployment scripts: Docker, Gunicorn / Nginx, Heroku
+- `Deployment`: **Docker**, Gunicorn / Nginx, Heroku
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
