@@ -1,9 +1,11 @@
-# [Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system) Flask
+# [Soft UI Design Flask](https://appseed.us/product/flask-soft-ui-design-system)
 
-**[Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system)** is a Premium Bootstrap 5 UI Kit designed by [Creative-Tim](https://bit.ly/3fKQZaL) designed for those who like bold elements and beautiful websites. **Soft UI Design System Flask**  is a simple Flask starter provided by AppSeed with a modular codebase, database, authentication and deployment scripts - Features:
+**[Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system)** is a Premium Bootstrap 5 UI Kit designed by [Creative-Tim](https://bit.ly/3fKQZaL) designed for those who like bold elements and beautiful websites. **Soft UI Design System Flask**  is a simple Flask starter provided by AppSeed with a modular codebase, database, authentication, and deployment scripts - Features:
 
 <br />
 
+- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Soft UI Design System** (Free Version) by **Creative-Tim**
 - SQLite database, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
@@ -14,20 +16,32 @@
 
 > Links
 
-- [Soft UI Design System Flask](https://appseed.us/product/flask-soft-ui-design-system) - product page
-- [Soft UI Design System Flask - Demo](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Deployment
+- [Soft UI Design Flask](https://appseed.us/product/flask-soft-ui-design-system) - Product page
+- [Soft UI Design Flask ](https://flask-soft-ui-free.appseed-srv1.com/) - LIVE Demo
 
 <br />
 
-## Want more? Go PRO!
+## Quick Start in [Docker](https://www.docker.com/)
 
-PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
+> Get the code
 
-| [Flask Soft UI PRO](https://appseed.us/product/flask-soft-ui-pro) | [Flask Material PRO](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [Flask Volt PRO](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro) |
-| --- | --- | --- |
-| [![Flask Soft UI PRO](https://raw.githubusercontent.com/app-generator/soft-ui-design-system/main/media/soft-ui-design-system-screen.png)](https://appseed.us/product/flask-soft-ui-pro) | [![Flask Material PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-material-pro/master/media/flask-dashboard-material-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [![Flask Volt PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-volt-pro/master/media/flask-dashboard-volt-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro)
+```bash
+$ git clone https://github.com/app-generator/flask-soft-ui-design.git
+$ cd flask-soft-ui-design
+```
+
+> Start the app in Docker
+
+```bash
+$ docker-compose up --build 
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
+
+![Flask Material Kit 2 - Starter provided by AppSeed.](https://user-images.githubusercontent.com/51070104/139474054-a223e8e0-d441-4f9f-8237-627a77bdd49c.gif)
+
 <br />
 
 ![Flask Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-soft-ui-free/master/media/flask-soft-ui-free-screen.png)
@@ -38,8 +52,8 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/flask-soft-ui-free.git
-$ cd flask-soft-ui-free
+$ git clone https://github.com/app-generator/flask-soft-ui-design.git
+$ cd flask-soft-ui-design
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -81,7 +95,6 @@ The project has a super simple structure, represented as bellow:
 ```bash
 < PROJECT ROOT >
    |
-   |-- app/__init__.py
    |-- app/
    |    |-- static/
    |    |    |-- <css, JS, images>         # CSS files, Javascripts files
@@ -105,13 +118,23 @@ The project has a super simple structure, represented as bellow:
    |    |    |    |-- login.html           # Use layout `base-fullscreen.html`
    |    |    |    |-- register.html        # Use layout `base-fullscreen.html`  
    |    |    |
-   |    |  index.html                      # The default page
-   |    |  page-404.html                   # Error 404 page (page not found)
-   |    |  page-500.html                   # Error 500 page (server error)
-   |    |    *.html                        # All other pages provided by the UI Kit
+   |    |    |-- home/                      # UI Kit Pages
+   |    |         |-- index.html            # Index page
+   |    |         |-- 404-page.html         # 404 page
+   |    |         |-- *.html                # All other pages
+   |    |
+   |   config.py                            # Provides APP Configuration 
+   |   forms.py                             # Defines Forms (login, register) 
+   |   models.py                            # Defines app models 
+   |   views.py                             # Application Routes 
+   |
+   |-- Dockerfile                           # Deployment
+   |-- docker-compose.yml                   # Deployment
+   |-- gunicorn-cfg.py                      # Deployment   
+   |-- nginx                                # Deployment
+   |    |-- appseed-app.conf                # Deployment 
    |
    |-- requirements.txt
-   |
    |-- run.py
    |
    |-- ************************************************************************
@@ -119,33 +142,52 @@ The project has a super simple structure, represented as bellow:
 
 <br />
 
+## Recompile CSS
+
+To recompile SCSS files, follow this setup:
+
+<br />
+
+**Step #1** - Install tools
+
+- [NodeJS](https://nodejs.org/en/) 12.x or higher
+- [Gulp](https://gulpjs.com/) - globally 
+    - `npm install -g gulp-cli`
+- [Yarn](https://yarnpkg.com/) (optional) 
+
+<br />
+
+**Step #2** - Change the working directory to `assets` folder
+
+```bash
+$ cd app/static/assets
+```
+
+<br />
+
+**Step #3** - Install modules (this will create a classic `node_modules` directory)
+
+```bash
+$ npm install
+// OR
+$ yarn
+```
+
+<br />
+
+**Step #4** - Edit & Recompile SCSS files 
+
+```bash
+$ gulp scss
+```
+
+The generated file is saved in `static/assets/css` directory.
+
+<br />
+
 ## Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Heroku](https://www.heroku.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
-
-<br />
-
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/flask-soft-ui-free.git
-$ cd flask-soft-ui-free
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:5005` in your browser. The app should be up & running.
-
-<br />
 
 ### [Heroku](https://www.heroku.com/)
 ---
@@ -159,8 +201,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/flask-soft-ui-free.git
-$ cd flask-soft-ui-free
+$ git clone https://github.com/app-generator/flask-soft-ui-design.git
+$ cd flask-soft-ui-design
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
@@ -241,4 +283,4 @@ You will save a lot of time going from prototyping to full-functional code, beca
 <br />
 
 ---
-[Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system) Flask - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Soft UI Design Flask](https://appseed.us/product/flask-soft-ui-design-system) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
