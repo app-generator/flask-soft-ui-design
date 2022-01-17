@@ -4,7 +4,7 @@
 
 <br />
 
-- `Up-to-date dependencies`: **Flask 2.0.1**
+- `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Soft UI Design System** (Free Version) by **Creative-Tim**
 - `DB Tools`: SQLite database, Flask-SQLAlchemy ORM
