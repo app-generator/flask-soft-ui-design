@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.6] 2022-05-31
+### Improvements
+
+- Built with [Soft UI Design Generator](https://appseed.us/generator/soft-ui-design/)
+  - Timestamp: `2022-05-31 08:48`
+
 ## [1.0.5] 2022-01-17
 ### Improvements
 
