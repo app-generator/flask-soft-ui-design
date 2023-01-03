@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.9] 2023-01-03
+### Changes
+
+- `DOCS Update` (readme)
+  - [Flask Soft Design - Go LIVE](https://www.youtube.com/watch?v=XtRlKDNW5R0) (`video presentation`)
+
 ## [1.0.8] 2023-01-03
 ### Changes
 
