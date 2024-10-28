@@ -89,11 +89,11 @@ $ pip3 install -r requirements.txt
 ```bash
 $ # CMD 
 $ set FLASK_APP=run.py
-$ set FLASK_ENV=True
+$ set FLASK_DEBUG=True
 $
 $ # Powershell
 $ $env:FLASK_APP = ".\run.py"
-$ $env:FLASK_ENV = "True"
+$ $env:FLASK_DEBUG = "True"
 ```
 
 <br />
