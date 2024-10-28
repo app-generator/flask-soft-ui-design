@@ -15,7 +15,7 @@
 
 <br /> 
 
-## Start with Docker
+## Start with `Docker`
 
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
